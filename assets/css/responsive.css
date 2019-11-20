@@ -78,7 +78,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         float: left;
     }
     .main-menu ul.navbar-nav li a {
-        color: #666;
+        color: 666;
         padding: 10px 5px;
     }
     .main-menu ul.nav.navbar-nav li.active:before {
