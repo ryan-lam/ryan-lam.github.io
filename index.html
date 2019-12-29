@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155078014-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-155078014-1');
+            gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+            ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id.
+        </script>
+
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -603,6 +616,21 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
+                            <div class="single-work">
+                                <img src="assets\img\work\QuantumPvP.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Quantum PvP</h4>
+                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal17"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
 
@@ -990,7 +1018,28 @@
                             </div><!-- /.modal -->
                             <!-- End Work Modal  -->
 
-
+                            <!-- Work Modal Seventeen  -->
+                            <div  tabindex="0" class="modal fade" id="projectModal17">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title">Project Overview</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="assets/img/work/QuantumPvP.jpg" alt="work-1">
+                                            <h3>Quantum PvP</h3>
+                                            <p>Pseudo random number generators aren't truely random. They rely on an algorithm that produces a number that is "random enough". Why don't we try generating truely random numbers with the help of a quantum computer?<p>
+                                             <ul class="list-unstyled project-list" >
+                                                <li><label>Category :</label> Quantum Computing</li>
+                                                <li><label>Date : </label> December 25, 2019</li>
+                                                <li><label>URL : </label> <a href="Quantum-PvP.html" target="_blank">Quantum PvP</a></li>
+                                            </ul>
+                                      </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+                            <!-- End Work Modal  -->
 
 
 
@@ -1169,12 +1218,14 @@
             <div class="container">
                 <div class="row wow zoomIn" data-wow-delay="0s">
                     <div class="col-md-12 text-center">
-                        <p>&copy;2019 <strong>Ryan Lam</strong>. All Rights Reserved</p>
+                        <p>&copy;2020 <strong>Ryan Lam</strong>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
         </footer>
         <!--====== END FOOTER AREA ======-->
+
+        
 
 
         <!--== plugins js ==-->
