@@ -1,2012 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ1M4S009D"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Ryan Lam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Ryan Lam - About Me" />
+    <meta name="keywords" content="Ryan, Lam, Quantum, AI, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="Ryan Lam" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-        gtag('config', 'G-HJ1M4S009D');
-        </script>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/modernizr.custom.js"></script>
+  </head>
 
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Ryan's Personal Portfolio">
-        <meta name="keywords" content="mhbthemes, resume, cv, portfolio, personal, developer, designer,personal resume, onepage, clean, modern">
-        <meta name="author" content="Ryan Lam">
-
-        <title>Ryan Lam</title>
-        
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
-
-        <!--== bootstrap ==-->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!--== font-awesome ==-->
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        
-        <!--== magnific-popup ==-->
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
-        
-        <!--== owl carousel ==-->
-        <link href="assets/css/owl.carousel.css" rel="stylesheet">
-        
-        <!--== animate css ==-->
-        <link href="assets/css/animate.min.css" rel="stylesheet">
-
-        <!--== style css ==-->
-        <link href="style.css" rel="stylesheet">
-        
-        <!--== responsive css ==-->
-        <link href="assets/css/responsive.css" rel="stylesheet">
-        
-        <!--== theme color css ==-->
-        <link href="assets/theme-color/color_1.css" rel="stylesheet">
-        
-        <!--== jQuery ==-->
-        <script src="assets/js/jquery-2.1.4.min.js"></script>
-
-
-        <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        
-        <!--======= PRELOADER =======-->
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
+  <body class="page">
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
+      </div>
+    </div>
 
-        <!--===== HEADER AREA =====-->
-        <header class="navbar custom-navbar navbar-fixed-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <div class="logo">
-                           <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <a class="theme-color" href="index.html">Ryan</a> <!--== logo ==-->
-                        </div>
-                    </div>
 
-                    <div class="col-md-9 col-sm-8 col-xs-12">
-                       <nav class="main-menu">
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav"> <!--== manin menu ==-->
-                                <li class="active"><a class="smoth-scroll" href="#home">Home</a></li>
-                                <li><a class="smoth-scroll" href="#about">About</a></li>
-                                <li><a class="smoth-scroll" href="#resume">Resume</a></li>
-                                <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
-                                <li><a class="smoth-scroll" href="project-showcase.html">Project Showcase</a></li>
-                                <li><a class="smoth-scroll" href="#newsletter">Newsletter</a></li>
-                                <li><a class="smoth-scroll" href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                        </nav>
-                    </div>
-                </div> <!--/.row-->
-            </div> <!--/.container-->
-        </header>
-        <!--===== END HEADER AREA ======-->
+    <!-- Start Page -->
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
-        <!--======= WELCOME AREA =======-->
-        <div id="home" class="welcome-area" style="background-image: url(assets/img/main-bg.jpg); background-attachment: fixed;">
-           <div class="welcome-table">
-               <div class="welcome-cell">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="welcome-text">
-                                  <h1 class="theme-color">Ryan Lam</h1>
-                                   <div class="element"></div>
-                                    
-                                </div>
-                                <div class="home-arrow">
-                                    <a href="#about" class="smoth-scroll"><i class="fa fa-angle-double-down"></i></a>
-                                </div>
-                            </div>
-                       </div> <!--/.row-->
-                    </div> <!--/.container-->
-                </div>
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-text">Ryan <span>Lam</span></div>
+              </a>
             </div>
-        </div>
-        <!--===== END WELCOME AREA =====-->
 
-		
-        <!--===== ABOUT AREA =====-->
-		<div id="about" class="about-area section-padding">
-		<br>
-		<br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                       <div class="author-image">
-                            <img src="assets/img/author.jpg" alt="Author Image"> <!--=== about image ===-->
-                        </div>
-                    </div>
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item">
+                  <a href="index.html">About Me</a>
+                </li>
+                <li class="menu-item">
+                  <a href="resume.html">Resume</a>
+                </li>
+				        <li class="menu-item">
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+			        	<li class="menu-item">
+                  <a href="newsletters.html">Newsletters</a>
+                </li>
+                <li class="menu-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+        <!-- /Header -->
 
-                    <div class="col-md-7">
-                        <div class="tab" role="tabpanel">
-                            <ul class="nav nav-tabs" role="tablist"> <!-- Nav tabs -->
-                                <li role="presentation" class="active"><a href="#Section1" role="tab" data-toggle="tab">About Me</a></li>
-                                <li role="presentation"><a href="#Section2" role="tab" data-toggle="tab">My Passions</a></li>
-                            </ul>
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade in active" id="Section1"> <!-- Single Tab -->
-                                    <h4 class="about-heading">Hi there, I'm  <span>Ryan Lam</span></h4>
-                                   <p>I’m a grade 12 student from Markham, Ontario who’s passionate about emerging technologies and STEM subjects. I enjoy learning science, mathematics, technology, and business, and hope to start a startup one day.</p>
-                                    <p>I’m currently learning quantum computing and hope to go into quantum machine learning, the intersection between quantum computing and machine learning. I hope that one day we can predict quantum mechanical systems and better understand the universe by running huge simulations on quantum computers. In my spare time, I enjoy reading physics and business biography books. </p>
-									<p>If you’d like to stay updated on my journey, join my mailing list for my monthly <a href="http://eepurl.com/gR2-iv" style="color:rgb(12, 161, 32)" target = "_blank">Newsletters</a> and feel free to check out my work below!</p>
-                                    <ul class="social-links"> <!--=== social-links ===-->
-                                        <li><a href="https://ca.linkedin.com/in/ryanlam285" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                        
-                                        <li><a href="https://www.instagram.com/ryan_lam285/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                        
-                                        <li><a href="https://medium.com/@ryanlam285" target="_blank"><i class="fa fa-medium"></i></a></li>
-                                        
-                                        <li><a href="https://github.com/ryan-lam" target="_blank"><i class="fa fa-github"></i></a></li>
-										
-										<li><a href="mailto:ryanlam328@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
-
-                                        
-
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="Section2"> <!-- Single Tab -->
-									
-                                    <div class="single-skill"> <!-- Single Skill -->
-                                        <div class="skill-info">
-                                            <h4 style = "color:rgb(24, 186, 96)"> Quantum Computing</h4>
-											<p>Exponential computation power with quantum computers really excites me! I hope to create quantum algorithms and run simulations on a quantum computer!</p>
-                                        </div>
-<!--
-                                        <div class="progress">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span>100%</span></div>
-                                        </div>
-                                    </div>
--->
-                                    <div class="single-skill"> <!-- Single Skill -->
-                                        <div class="skill-info">
-                                            <h4 style = "color:rgb(24, 186, 96)"> Artificial Intelligence + Machine Learning</h4>
-											<p>I enjoy researching and learning about AI ML, and look forward to AGIs. I also enjoy exploring Quantum Machine Learning, the intersection between ML and quantum computing.</p>
-                                        </div>
-<!--
-                                        <div class="progress">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span>100%</span></div>
-                                        </div>
-                                    </div>
--->
-                                    <div class="single-skill"> <!-- Single Skill -->
-                                        <div class="skill-info">
-                                            <h4 style = "color:rgb(24, 186, 96)"> Physics + Space Technologies</h4>
-											<p>I love understanding how the world works around us. I enjoy following space technologies, as I believe that one day humans will be a multiplanetary species.</p>
-                                        </div>
-<!--
-                                        <div class="progress">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span>100%</span></div>
-                                        </div>
-                                    </div>
--->
-                                    <div class="single-skill"> <!-- Single Skill -->
-                                        <div class="skill-info">
-                                            <h4 style = "color:rgb(24, 186, 96)"> Business + Entrepreneurship</h4>
-                                        </div>
-										<p>I love learning about business and entrepreneurship. I follow the markets and have started a couple "side hustles". I hope to start a startup one day!</p>
-<!--
-                                        <div class="progress">
-                                          <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span>100%</span></div>
-                                        </div>
--->
-									<br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--/.row-->
-            </div> <!--/.container-->
-        </div>
-        <!--===== END ABOUT AREA =====-->
-
-        <!--===== RESUME AREA =====-->
-        <div class="services-area section-padding">
-            <div class="container">
-               <div class="row">
-                   <div class="col-md-12 col-sm-12 col-xs-12">
-					  <br>
-                      <div id="resume" class="section-title">
-                       <h2 style="padding-top: 50px">Resume</h2>
-						  <p>Here's what I do</p>
-                       </div>
-                   </div>
-               </div> <!--/.row-->
-               
-                <div class="row">
-                    <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.2s">
-                           <div class="service-img" style="background-image: url(assets/img/service/1.png) "></div>
-                            <h3>Innovator at The Knowledge Society (TKS)</h3>
-                            <p>June 2019 - Present</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-                                    <p style="color:white"><a href="https://theksociety.com/toronto/" target="_blank" style="color:white"><u>The Knowledge Society</u></a> is an accelerator program for high school students with a focus on emerging technologies. I'm currently doing a deep focus in quantum computing and plan to work with Artificial Intelligence in 2020.</p>
-<!--
-                                    <li> <i class="fa fa-long-arrow-right"></i> Space Exploration </li>
-                                    <li><i class="fa fa-long-arrow-right"></i>AI</li>
--->
-<!--                                    <li><i class="fa fa-long-arrow-right"></i> Responsive web design </li>-->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.3s">
-                           <div class="service-img" style="background-image: url(assets/img/service/2.png) "></div>
-                            <h3>Quantum Computing Enthusiast</h3>
-                            <p>June 2019 - Present</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-                                    <p style="color:white">I'm currently working and learning quantum computing. I'm currently practicing representing quantum circuits mathematically. I'm also learning quantum programming using 
-									
-										<a href="https://www.rigetti.com/forest" target="_blank" style="color:white"><u>PyQuil</u></a>, 
-										
-										<a href="https://qiskit.org" target="_blank" style="color:white"><u>Qiskit</u></a>, and 
-										
-										<a href="https://github.com/quantumlib/cirq" target="_blank" style="color:white"><u>Cirq</u></a> libraries in Python.</p>
-<!--
-                                    <li><i class="fa fa-long-arrow-right"></i> Mathematics</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Physics</li>
--->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.4s">
-                           <div class="service-img" style="background-image: url(assets/img/service/3.png) "></div>
-                            <h3>Student at Unionville High School</h3>
-                            <p>September 2016 - Present</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-                                    <p style="color:white">I'm a grade 12 student who's currently enrolled in the Business <a href="http://www.edu.gov.on.ca/morestudentsuccess/shsm.html" target="_blank" style="color:white"><u>Specialist High Skills Majors (SHSM)</u></a> program at <a href="http://www.yrdsb.ca/schools/unionville.hs/Pages/default.aspx" target="_blank" style="color:white"><u>Unionville High School</u></a>.</p>
-									<p style="color:white">I'm also taking business, science, and mathematic courses as those are some of my interests.</p>									
-<!--
-                                    <li> <i class="fa fa-long-arrow-right"></i> Android Apps Development </li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Web Apps Development</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Hybrid Apps Development </li>
--->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.5s">
-                           <div class="service-img" style="background-image: url(assets/img/service/4.png) "></div>
-                            <h3>Entrepreneur and Graphic Designer</h3>
-                            <p>October 2018 - Present</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-                                    <p style="color:white">Since October 2018, I've done a flipping side hustle and graphic designing. I've also attempted to start a few businesses and non-profits, which were unsuccessful due to the lack of capital. I'm currently working to host a hackathon at my school.</p>
-<!--
-                                    <li> <i class="fa fa-long-arrow-right"></i> Website Design</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Video Production</li>
--->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.6s">
-                           <div class="service-img" style="background-image: url(assets/img/service/5.png) "></div>
-                           <h3>Ambassador for The SPARK Hackathon</h3>
-                            <p>September 2019 - January 2020</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-									<p style="color:white">The <a href="https://sparkhackathon.wixsite.com/spark" target="_blank" style="color:white"><u>SPARK Hackathon</u></a>  is one of the largest student-ran hackathon for high school students in the Greater Toronto Area. As an ambassador, I utilized my connections and platforms to generate interest among high school students.</p>
-<!--
-                                    <li> <i class="fa fa-long-arrow-right"></i> Website Design</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Mobile App Design</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Content Writing</li>
--->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6"> <!-- Single Service -->
-                        <div class="single-service text-center wow fadeInUp" data-wow-delay="0.7s">
-                           <div class="service-img" style="background-image: url(assets/img/service/6.png) "></div>
-                            <h3>Marketing Assistant at CDI Technologies</h3>
-                             <p>September 2018 - January 2019</p>
-                            <div class="service-overlay text-left">
-                                <ul class="clearfix">
-                                    <p style="color:white"><a href="https://cditechnologies.com/" target="_blank" style="color:white"><u>CDI Technologies</u></a> is a EdTech company which provides classroom-ready ecosystems solutions to schools in US and Canada.</p>
-									<p style="color:white">I worked with market research, CRMs, databases, marketing campaigns and trade shows.</p>
-<!--
-                                    <li> <i class="fa fa-long-arrow-right"></i> Business Consulting</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Graphic/Print Design</li>
-                                    <li><i class="fa fa-long-arrow-right"></i> Video Production</li>
--->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--/.row-->
-            </div> <!--/.container-->
-        </div>
-        <!--====== END RESUME AREA ======-->
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">    
+              <div id="content" class="page-content site-content single-post" role="main">
 
 
-        
-         <!--====== PORTFOLIO AREA ======-->
-        <div id="portfolio" class="work-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                      <div class="section-title">
-                           <h2 style="padding-top: 55px">Portfolio</h2>
-                           <p>Here's what I've been up to lately</p>
-                       </div>
-                    </div>
-                </div> <!--/.row-->
-				
-                <div class="row">
-                    <ul class="work-list text-center">
-                        <li class="filter" data-filter="all">All</li>
-                        <li class="filter" data-filter=".projects">Projects</li>
-                        <li class="filter" data-filter=".articles">Articles</li>
-                        <li class="filter" data-filter=".videos">videos</li>
-                        <li class="filter" data-filter=".1pagers">1-Pagers</li>
-                        <li class="filter" data-filter=".newsletters">Newsletters</li>
-                        <li class="filter" data-filter=".research">Research Articles & Papers</li>
-                    </ul>
-                </div> <!--/.row-->
-                <div class="work-inner">
+                <div id="home_content" class="home-content third-style">
+                  <div class="start-page-full-width">
                     <div class="row">
 
-                        <!-- IN PROGRESS -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix research"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/QSVM and SVM Research.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>An Analysis of Dimensionality Expansion Performed on Quantum and Classical Support Vector Machines</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal99"><i class="fa fa-university" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="inner-content">
+                          <div class="fill-block" style="background-image: url(./img/main-pic.jpg);"></div>
                         </div>
+                      </div>
 
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="inner-content inner-text-block">
+                          <div class="hp-text-block">
 
-
-
-
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/polymask.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>PolyMask</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal35"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="owl-carousel text-rotation">
+                              <div class="item">
+                                <div class="sp-subtitle">Entrepreneur</div>
+                              </div>
+                              <div class="item">
+                                <div class="sp-subtitle">Quantum Computing Enthusiast</div>
+                              </div>
+							                <div class="item">
+                                <div class="sp-subtitle">Innovator</div>
+                              </div>
+				              			  <div class="item">
+                                <div class="sp-subtitle">AI Enthusiast  </div>
+                              </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/cp24.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>PolyMask on CP24 Breakfast (Video)</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal34"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                          
+                            <h2 class="hp-main-title">Ryan Lam</h2>
+                            <p>Hi there, I'm an incoming freshman at the University of Waterloo and will be studying mathematical physics starting Fall 2020. 
+                              I'm interested in mathematics, physics, quantum computing, web development, machine learning, startups, UI/UX design, philosophy, and psychology. 
+                              In my spare time, I enjoy reading, writing, learning, and listening to podcasts.</p>
+
+                            <div class="hp-buttons">
+                              <a href="https://ca.linkedin.com/in/ryanlam285" target="_blank" class="btn btn-primary">My LinkedIn</a>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/april2020.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>April 2020 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal33"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/med blockchain.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Blockchain for COVID-19</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal32"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\covid19.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>The Average Reader’s Guide to Understanding Covid-19</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal31"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\march 2020.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>March 2020 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal30"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/TKSxKidogo.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Expanding Kidogo's Childcare Services with Home-Based Centers</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal29"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\divincenzo.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>The Requirements for Building a Quantum Computer</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal28"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/DJ Algorithm.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>The Deutsch-Jozsa Algorithm</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal27"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\QC applications.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>How Quantum Computing Will Disrupt Your Industry</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal26"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\February.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>February 2020 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal25"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\MIT xPro.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Learning Quantum Computing in 8 weeks with MIT xPRO</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal24"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\Pomelo-DECA-2020.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Pomelo - 2020 DECA EIP Provincials</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal23"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\CoEfficient.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>CoEfficient - Hack the Valley 4</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal22"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\IQM.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>IQM Quantum Computers @ iQuHACK</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal21"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\January.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>January 2020 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal20"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\iQuHACK.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>iQuHACK: MIT's First Quantum Computing Hackathon</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal19"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\december_2019.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>December 2019 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal18"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 1 PAGER -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix 1pagers"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/PDFs/VQE_1pager/VQE_1pager_img.png" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>1-Pager</h4>
-                                                <h4>The Variational Quantum Eigensolver Algorithm</h4>
-                                                <a href="assets/PDFs/VQE_1pager/VQE_1pager.pdf" target="_blank" class="work-link" data-toggle="modal"><i class="fa fa-file-text" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\QuantumPvP.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Quantum PvP</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal17"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\QuantumDice.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Quantum Dice</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal16"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix videos"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\focuspres1.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Understanding the Quantum Approximate Optimization Algorithm (QAOA)</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal15"><i class="fa fa-play" aria-hidden="true"></i></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\TKSxSidewalkLabs.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Sidewalk Labs Challenge</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal14"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\consensys.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Toronto 2019 ConsenSys Hackathon</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal13"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\nov_2019.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>November 2019 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal12"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix videos"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\vid1.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Representing Superposition and Entanglement with Mathematics</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal11"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\rigetti_qc.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Building Quantum Circuits + a Visualizer with PyQuil</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal10"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets\img\work\qc_math.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>The Math behind Quantum Computing — Qubits and Superposition</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal9"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/october.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>October 2019 Newsletter</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal8"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/dark_matter.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Dark Matter in 4 Minutes</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal7"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/maxcut.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Quantum Machine Learning with QAOA</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal6"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix newsletters"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/september.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                               <h4>September 2019 Newsletter</h4>
-                                               <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal5"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/elevate_networking.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>My Networking Takeaways from Elevate 2019</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal4"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/Nanosensors.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Nanosensors for Dummies</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal3"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix projects"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/Rogers Continuous.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Rogers Continuous</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal2"><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12 mix articles"> <!-- Single Work -->
-                            <div class="single-work">
-                                <img src="assets/img/work/Quantum Computing - From 0 to 1.jpg" alt="">
-                                <div class="item-hover">
-                                    <div class="work-table">
-                                        <div class="work-tablecell">
-                                            <div class="hover-content">
-                                                <h4>Quantum Computing - From 0 to 1</h4>
-                                                <a href="#" class="work-link" data-toggle="modal" data-target="#projectModal1"><i class="fa fa-align-left" aria-hidden="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-
-
-
-
-
-
-
-<!-- //////////////////////////////
-//////////////////////////////
-//////////////////////////////
-//////////////////////////////
-////////////////////////////// -->
-                            <!-- IN PROGRESS -->
-                            <!-- Work Modal 32  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal99">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Research Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/QSVM and SVM Research.jpg" alt="work-1">
-                                            <h3>An Analysis of Dimensionality Expansion Performed on Quantum and Classical Support Vector Machines<br><span style="color:red;">WORK IN PROGRESS</span></h3>
-                                            <p>Ever since the discovery of the Support Vector Machine (SVM) algorithm, SVMs have been among one of the best supervised machine learning algorithms to classify linear and non-linear data. Unfortunately, SVMs possess kernel limitations when introduced to higher dimensional data and while working with problems containing large features. <br><br>With the introduction of quantum computation and quantum machine learning, researchers have successfully implemented a Quantum Support Vector Machine (QSVM) onto a quantum computer. Doing so has allowed classical data to be transferred into quantum states, taking advantage of the large dimensionality of quantum Hilbert space. <br><br>To study the effectiveness and accuracy of dimensionality expansion in QSVMs as opposed to SVMs, we processed dimensionally reduced data into SVMs and QSVMs. Using evaluation metrics and techniques the processed datasets are compared and analyzed.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing, Artificial Intelligence, Research</li>
-                                                <li><label>Date : </label> TBD</li>
-                                                <li><label>URL : </label> <a href="assets//PDFs/An_Analysis_of_Dimensionality_Expansion_Performed_on_Quantum_and_Classical_Support_Vector_Machines.pdf" target="_blank">Preview (WORK IN PROGRESS)</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  --> 
-
-
-
-                            <!-- Work Modal 35  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal35">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/polymask.jpg" alt="work-1">
-                                            <h3>PolyMask</h3>
-                                            <p>PolyMask is a 2-part ventilation mask consisting of a foldable ventilation mask and a filtration valve designed to help combat COVID-19. The foldable ventilation mask is similar to a typical ICU mask and the filtration valve is an attachment that can help filter out 99% of particles. We currently plan to manufacture it with polycarbonate and vinyl so the final product can be UV disinfected. Our planned manufacturing process will also allow us to manufacture it cheaply.</p>
-                                            <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> COVID-19</li>
-                                                <li><label>Date : </label> Ongoing Project</li>
-                                                <li><label>URL : </label> <a href="https://polymask.ca/" target="_blank">PolyMask</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 34  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal34">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/cp24.jpg" alt="work-1">
-                                            <h3>PolyMask on CP24 Breakfast (Video)</h3>
-                                            <p>While working on PolyMask, my co-founder, Marcus Chan, was given the opportunity to be interviewed on CP24 Breakfast to talk about PolyMask!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Media, COVID-19</li>
-                                                <li><label>Date : </label> April 29, 2020</li>
-                                                <li><label>URL : </label> <a href="https://www.instagram.com/p/B_kRO25BXsR/" target="_blank">PolyMask on CP24 Breakfast</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 33  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal33">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/april2020.jpg" alt="work-1">
-                                            <h3>April 2020 Newsletter</h3>
-                                            <p>With quarantine still in effect, I was able to attend school and do schoolwork in the comfort of my home. With tons of free time, I decided to work on PolyMask (a new project) and look into using Blockchain during the COVID-19 pandemic. Check it out in this month's newsletter!</p>
-                                            <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> April 30, 2020</li>
-                                                <li><label>URL : </label> <a href="https://us20.campaign-archive.com/?u=088fb287f226b3387b9a2ecc6&id=fd0cb348eb" target="_blank">April 2020 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  --> 
-
-                            <!-- Work Modal 32  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal32">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/med blockchain.jpg" alt="work-1">
-                                            <h3>Using a Private Blockchain Network for Death Certificate Verification Amid the COVID-19 Pandemic</h3>
-                                            <p>During this month, I also looked at one of the indirect problems created from COIVD-19: the transportation of deceased individuals. The current traditional methodologies of dealing with deceased individuals has caused a delay in transportation, logistics, and resources for funeral workers. During the month, I looked into how blockchain can potentially be used to combat this issue. </p>
-                                            <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> COVID-19, Blockchain</li>
-                                                <li><label>Date : </label> April 28, 2020</li>
-                                                <li><label>URL : </label> <a href="assets/PDFs/Using a Private Blockchain Network for Death Certificate Verification Amid the COVID-19 Pandemic - Ryan Lam (final).pdf" target="_blank">Blockchain for COVID-19</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  --> 
-                            
-                            <!-- Work Modal 31  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal31">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/covid19.jpg" alt="work-1">
-                                            <h3>The Average Reader’s Guide to Understanding Covid-19</h3>
-                                            <p>We know this stuff is scary. <br><br>Quarantine + isolation, chaos, fake news and food vanishing off shelves are situations bound to scare even the strongest of people. <br><br>It’s tough, and you might find yourself feeling lost or powerless in these situations. As a group of high school students, we did too. It’s tough to deal with not seeing your friends, seeing your parents scared and even the leaders of your country in a panicked state. <br><br>So, we decided to make a handbook to help you guys out. After all, knowledge is power, and it’s better to know how to be safe than sorry. This handbook teaches you about the background of pandemics + epidemics, viruses + Covid-19 itself, global response to it, implications, and ways that we react to it. <br><br>Get ready to build your toolkit of knowledge and combat corona!<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> COVID-19, Pandemics, Combined Article</li>
-                                                <li><label>Date : </label> March 28, 2020</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@theksociety/the-average-readers-guide-to-understanding-covid-19-63d3b58af653" target="_blank">The Average Reader’s Guide to Understanding Covid-19</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  --> 
-
-                            <!-- Work Modal 30  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal30">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/march 2020.jpg" alt="work-1">
-                                            <h3>March 2020 Newsletter</h3>
-                                            <p>With the COVID-19 situation, March was a very hectic month. My school was closed for 2 weeks after March Break, giving me tons of time to learn and work on my own projects. Check out what I've been working on below!<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> March 31, 2020</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/95da42fc4c4a/ryan-march-2020" target="_blank">March 2020 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  --> 
-
-                            <!-- Work Modal 29  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal29">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/TKSxKidogo.jpg" alt="work-1">
-                                            <h3>Expanding Kidogo's Childcare Services with Home-Based Centers</h3>
-                                            <p>There are thousands of home-based childcare centres in Kenya who lack the funds to improve their facilities. Many of the owners do not have the knowledge nor training to provide quality childcare services, and struggle to earn money reliably<br><br>Kidogo can partner up with informal home-based centres to provide a higher standard of ECD, while also extending their brand influence. This would involve creating a new level of Kidogo Branding known as “Kidogo Home” specifically for the home-based centres.<br><br>The implementation of Kidogo Branding can increase the revenue of home-based centres by up to 27%. This method also spreads Kidogo's brand identity and provides more children access to high quality care, while keeping costs low.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Challenges, Pitch Decks</li>
-                                                <li><label>Date : </label> March 22, 2020</li>
-                                                <li><label>URL : </label> <a href="assets/PDFs/TKS x Kidogo.pdf" target="_blank">Expanding Kidogo's Childcare Services with Home-Based Centers</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 28  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal28">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/divincenzo.jpg" alt="work-1">
-                                            <h3>The Requirements for Building a Quantum Computer</h3>
-                                            <p>Work In Progress<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> TBD</li>
-                                                <li><label>URL : </label> <a href="#" target="_blank" onclick="return false;">Work In Progress</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 27  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal27">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/DJ Algorithm.jpg" alt="work-1">
-                                            <h3>The Deutsch-Jozsa Algorithm</h3>
-                                            <p>Proposed by David Deutsch and Richard Jozsa in 1992, the Deutsch-Jozsa Algorithm was one of the first quantum algorithms that showed that quantum computation could demonstrate an exponential speed-up over a deterministic classical algorithm. The Deutsch-Jozsa Algorithm was the inspiration for Simon's and Shor's Algorithm.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> March 31, 2020</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/datadriveninvestor/the-deutsch-jozsa-algorithm-f8611e2ff3ff" target="_blank">The Deutsch-Jozsa Algorithm</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 26  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal26">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/QC applications.jpg" alt="work-1">
-                                            <h3>How Quantum Computing Will Disrupt Your Industry</h3>
-                                            <p>As companies invest and enter the quantum computing space, the number of news headlines with "quantum computing" has drastically increased. Google's controversial claim on "quantum supremacy" back in October 2019 was on headlines for a solid week!<br><br>For the average person, you might just think that quantum computers are just going to be faster versions of classical computers and that they might even jeopardize our current RSA encryption. But aside all that, what does it really mean? Why should I, the average person care? After all, it's not doing to affect my daily work and life right…?<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> March 19, 2020</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/discourse/how-quantum-computing-will-disrupt-your-industry-c8f7424103a9" target="_blank">How Quantum Computing Will Disrupt Your Industry</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->   
-
-                            <!-- Work Modal 25  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal25">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/February.jpg" alt="work-1">
-                                            <h3>February 2020 Newsletter</h3>
-                                            <p>What did I do this month?<br><br>✔️ Visit Harvard and MIT<br>✔️ Attend MIT's first quantum computing hackathon<br>✔️ Finish an MIT xPro course<br>✔️ Pitch my startup idea at DECA Provincials<br>✔️ Compete at Hack The Valley 4<br>✔️ And more! <p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> February 29, 2020</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/f51dee697c72/ryan-february-2020" target="_blank">February 2020 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->                            
-
-                            <!-- Work Modal 24  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal24">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/MIT xPro.jpg" alt="work-1">
-                                            <h3>Learning Quantum Computing in 8 weeks with MIT xPRO</h3>
-                                            <p>The story of how a High School Student learned Quantum Computing in only 8 Weeks<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> March 21, 2020</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/learning-quantum-computing-in-8-weeks-with-mit-xpro-1199cbaff0bd" target="_blank">Learning Quantum Computing in 8 weeks with MIT xPRO</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 23  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal23">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/Pomelo-DECA-2020.jpg" alt="work-1">
-                                            <h3>Pomelo - 2020 DECA EIP Provincials</h3>
-                                            <p>At Ontario's DECA Provincials competition, my teammate and I pitched our innovative idea: Pomelo. Pomelo is a Healthy & Lifestyle app on iOS and Android devices. Pomelo uses a 3-panel user interface to provide users with a digital lifestyle coach, personalized health analyses, a habit tracker, health-related articles, and Nutri-Scan: a feature that allows users to attain nutritional data of various foods through a camera scan.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Entrepreneurship</li>
-                                                <li><label>Date : </label> February 7, 2020</li>
-                                                <li><label>URL : </label> <a href="Pomelo.html" target="_blank">Pomelo </a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 22  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal22">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/CoEfficient.jpg" alt="work-1">
-                                            <h3>CoEfficient - Hack the Valley 4</h3>
-                                            <p>At the University of Toronto's annual hackathon, Hack The Valley, I decided to refine and improve on the project that I worked on at iQuHACKS. My team and I worked on building a user interface on top of the implementation of the algorithm. We were also looking into developing an Android app but unfortunately ran out of time.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> February 16, 2020</li>
-                                                <li><label>URL : </label> <a href="https://devpost.com/software/coefficient" target="_blank">CoEfficient - Hack the Valley 4</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 21  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal21">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/IQM.jpg" alt="work-1">
-                                            <h3>IQM Quantum Computers @ iQuHACK</h3>
-                                            <p>I'd like to give a huge thanks to IQM Quantum Computers for sponsoring and helping me get to Boston to attend iQuHACKs. During my time in Boston, I got the opportunity to interview iQuHACK attendees about the future of quantum computing and write a piece on the experience.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> February 12, 2020</li>
-                                                <li><label>URL : </label> <a href="https://www.meetiqm.com/2020/02/12/iqm-at-iquhack-mit-boston-usa/" target="_blank">IQM at iQuHACK</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 20  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal20">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/January.jpg" alt="work-1">
-                                            <h3>January 2020 Newsletter</h3>
-                                            <p>After a month-long grind on school summative and exams, I'm back on the quantum (and some university applications) grind! While studying and doing school work, I've been working my extracurriculars and I'm extremely excited about the work that I've planned for February! In the meantime, let's see what I've been up to in January. . .<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> January 30, 2020</li>
-                                                <li><label>URL : </label> <a href="https://us20.campaign-archive.com/?u=088fb287f226b3387b9a2ecc6&id=4a739c1e11" target="_blank">January 2020 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 19  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal19">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/iQuHACK.jpg" alt="work-1">
-                                            <h3>iQuHACK: MIT's First Quantum Computing Hackathon</h3>
-                                            <p>At the beginning of this month, I was sponsored by IQM and flew to MIT to attend iQuHACK, MIT's first quantum computing hackathon. At the hackathon, my team and I looked into a route optimization problem (the traveling salesman problem) and how quantum computers can be used to compute the optimized route.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> January 30, 2020</li>
-                                                <li><label>URL : </label> <a href="https://github.com/ryan-lam/iQuack" target="_blank">iQuHACK - Team 13</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 18  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal18">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/december_2019.jpg" alt="work-1">
-                                            <h3>December 2019 Newsletter</h3>
-                                            <p>From helping Sidewalk Labs reduce Toronto housing costs by 40% to learning how quantum computers simulate molecules, December was truly amazing! Check out the progress I've made in December's newsletter!<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> December 31, 2019</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/da060a59168b/ryan-december-2019" target="_blank">December 2019 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 17  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal17">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/QuantumPvP.jpg" alt="work-1">
-                                            <h3>Quantum PvP</h3>
-                                            <p>Quantum PvP is a game that starts with a quantum circuit with 3 qubits in superposition. 2 players take turns applying quantum gates onto the circuit, trying to manipulate the qubits, such that they collapse in a specific state. Players have 3 turns each and may add [X], [Y], [Z], [Rx], [Ry], [Rz], [CNOT],  or the [SWAP] gate onto the circuit.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> December 25, 2019</li>
-                                                <li><label>URL : </label> <a href="Quantum-PvP.html" target="_blank">Quantum PvP</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 16  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal16">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/QuantumDice.jpg" alt="work-1">
-                                            <h3>Quantum Dice</h3>
-                                            <p>Pseudo random number generators aren't truely random. They rely on an algorithm that produces a number that is "random enough". Why don't we try generating truely random numbers with the help of a quantum computer?<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> December 24, 2019</li>
-                                                <li><label>URL : </label> <a href="https://github.com/ryan-lam/QuantumDice" target="_blank">Quantum Dice</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 15  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal15">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Video Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/focuspres1.jpg" alt="work-1">
-                                            <h3>Understanding Quantum Approximate the Optimization Algorithm (QAOA)</h3>
-                                            <p>In this presentation, I attempt to explain how the Quantum Approximate Optimization Algorithm (QAOA) works and its current applications the the TKS Community.<p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing, Presentations</li>
-                                                <li><label>Date : </label> November 17, 2019</li>
-                                                <li><label>URL : </label> <a href="https://www.youtube.com/watch?v=Qu2RqsUzXXw" target="_blank">Understanding the QAOA</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 14  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal14">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/TKSxSidewalkLabs.jpg" alt="work-1">
-                                            <h3>Sidewalk Labs Challenge</h3>
-                                            <p>Toronto is facing a housing crisis where the cost of living is too high and requires individuals to sacrificing their quality of life. Through a collaboration between TKS and Sidewalk Labs, 
-                                                I was given the opportunity to research and recommend solutions to Sidewalk Labs to help them tackle the crisis.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Challenges, Pitch Decks</li>
-                                                <li><label>Date : </label> December 8, 2019</li>
-                                                <li><label>URL : </label> <a href="assets/PDFs/TKS x Sidewalk Labs.pdf" target="_blank">Affordable Housing Solutions on Underutilized Land</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 13  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal13">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/consensys.jpg" alt="work-1">
-                                            <h3>Toronto 2019 ConsenSys Hackathon</h3>
-                                            <p>Blockchain technologies have a good repetition since their smart contracts are immutable, and can’t be changed. 
-                                                But as blockchain technologies become more and more mainstream, what happens when someone executes a faulty smart contract with errors and mistakes?</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Blockchain, Hackathons</li>
-                                                <li><label>Date : </label> August 18, 2019</li>
-                                                <li><label>URL : </label> <a href="https://docs.google.com/presentation/d/1LlKP9ruv1QooPUgd8j_9o6i2HRZadhGhDcLS4hutaHM/edit?usp=sharing" target="_blank">Toronto 2019 ConsenSys Hackathon</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 12  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal12">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/nov_2019.jpg" alt="work-1">
-                                            <h3>November 2019 Newsletter</h3>
-                                            <p>From winning my first hackathon to helping Sidewalk Labs figure out how to reduce the cost of living, November was an exciting month! 
-                                                I wrote articles where the average human can learn how to program a quantum computer! Check it all out in this month's newsletter!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> November, 2019</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/2e9c1d5135ea/ryans-november-2019-newsletter" target="_blank">November 2019 Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 11  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal11">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Video Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/vid1.jpg" alt="work-1">
-                                            <h3>Representing Superposition and Entanglement with Mathematics</h3>
-                                            <p>Using mathematics, I'm going to be showing you how you can represent the superposition and entanglement of a qubit. I'll be using IBM Q Experience to demonstate the mathematics too.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing, Mathematics</li>
-                                                <li><label>Date : </label> October 31, 2019</li>
-                                                <li><label>URL : </label> <a href="https://www.youtube.com/watch?v=PCcoDCXSq0E" target="_blank">Superposition and Entanglement with Mathematics</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-							<!-- Work Modal 10  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal10">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/rigetti_qc.jpg" alt="work-1">
-                                            <h3>Building Quantum Circuits + A Visualizer With PyQuil</h3>
-                                            <p>Quantum computing is fundamentally different. It isn’t computer science nor physics. Instead, they’re both. This is one of the greatest obstacles preventing people from going into quantum computing. There is a lack of resources on the web, and simply no one to help create a tutorial where you can start from scratch and learn the basics.</p>
-                                            <p>In this article, rather than explaining quantum computing, we‘re going to learn how to create, run, and visualize quantum circuits using Rigetti’s quantum computer.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> November 28, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/datadriveninvestor/building-quantum-circuits-a-visualizer-with-pyquil-cd08fb8c904d?source=friends_link&sk=22c22c1b0e5bd5d275724c986e7ac8d2" target="_blank">Building Quantum Circuits + A Visualizer With PyQuil</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 9  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal9">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/qc_math.jpg" alt="work-1">
-                                            <h3>The Math behind Quantum Computing: Qubits and Superposition</h3>
-                                            <p>Ever wondered when you'll ever you're going to use university-level math in your life? Well, if you want to go into quantum computing, you're going to need to speak math! In quantum computing algorithms, gates, qubits, etc. are all represented in math. In this article, we're going to go over the math of qubits and superposition!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing, Mathematics</li>
-                                                <li><label>Date : </label> November 27, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/the-math-behind-quantum-computing-qubits-and-superposition-f7a871668125?source=friends_link&sk=8fd500bdde480b57062b6b3cb1f5c7d3r" target="_blank">The Math behind Quantum Computing</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-							<!-- Work Modal 8  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal8">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/october.jpg" alt="work-1">
-                                            <h3>October 2019 Newsletter</h3>
-                                            <p>It's amazing that you can do so many things in a month if you put your head into it! From learning linear algebra to learning quantum programming at a hackathon, my knowledge has increased in an incredible amount! Check what I've done this month in October's newsletter!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> October 2019</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/f8e3a2a31027/ryans-october-monthly-newsletter" target="_blank">Ryan's October Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-							<!-- Work Modal 7  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal7">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/dark_matter.jpg" alt="work-1">
-                                            <h3>Dark Matter in 4 Minutes</h3>
-                                            <p>What better way is there to finesse your friends with some dark matter knowledge you can get in 4 minutes?</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Space Exploration</li>
-                                                <li><label>Date : </label> September 2, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/dark-matter-in-4-minutes-b6f76c608b5d" target="_blank">Dark Matter in 4 Minutes</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div>
-							<br>
-							<!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 6  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal6">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/maxcut.jpg" alt="work-1">
-                                            <h3>Quantum Machine Learning with QAOA</h3>
-                                            <p>Last week, I was given an amazing opportunity to participate in a quantum computing hackathon. With amazing mentors from QOSF (The Quantum Open Source Foundation), my team used Rigetti's quantum computer and created a quantum machine learning program that clustered flowers based on their attributes. We then compared our program to classical machine learning and was amazed by the results.</p>
-											<br>
-											<p>Using the k-means clustering algorithm , we were able to achieve 100% accuracy in clustering 8 data samples in a time of 35.7 ms on a local CPU. With Rigetti's Quantum Optimization Approximation Algorithm (QAOA) and a weighted MaxCut clustering technique, we were able to achieve 100% accuracy in clustering 8 data samples in a time of 92,000 ms on Rigetti's Quantum Virtual Machine.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing, Machine Learning, Hackathons</li>
-                                                <li><label>Date : </label> October 20, 2019</li>
-                                                <li><label>URL : </label> <a href="https://github.com/ryan-lam/QOSF-hackathon-project" target="_blank">QOSF 2019 Project</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div>
-							<br>
-							<!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 5  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal5">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Newsletter Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/september.jpg" alt="work-1">
-                                            <h3>September 2019 Newsletter</h3>
-                                            <p>This month was a blast! I started my focus in quantum computing, went to Canada's largest tech fest, and attended 2 hackathons!</p>
-											<p>Read all about it in September's newsletter!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Newsletters</li>
-                                                <li><label>Date : </label> September 2019</li>
-                                                <li><label>URL : </label> <a href="https://mailchi.mp/13a0d951b082/ryans-september-newsletter" target="_blank">Ryan's September Newsletter</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 4  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal4">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/elevate_networking.jpg" alt="work-1">
-                                            <h3>My Networking Takeaways from Elevate 2019</h3>
-                                            <p>Last month I got the amazing opportunity to go to Canada's largest test fest, Elevate. Elevate gave me an environment where I could develop my networking skills. Check out my article on the networking takeaways that I developed and that I wish I had before attending!</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Networking</li>
-                                                <li><label>Date : </label> October 3, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/my-networking-takeaways-from-elevate-2019-70eefb2710ff" target="_blank">My Networking Takeaways from Elevate 2019</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 3  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal3">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/Nanosensors.jpg" alt="work-1">
-                                            <h3>Nanosensors for Dummies</h3>
-                                            <p>A quick and "dumbed-down" explanation of nanosensors, their importance, how they work, how they're manufactured, problems and solutions to manufacturing, and the promising future of nanosensors at a high-school level.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Nanotechnology</li>
-                                                <li><label>Date : </label> March 31, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/nanosensors-for-dummies-dcaaeb75002d" target="_blank">Nanosensors for Dummies</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 2  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal2">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Project Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/Rogers Continuous.jpg" alt="work-1">
-                                            <h3>Rogers Continuous</h3>
-                                            <p>With technology becoming ever more present in our day to day lives, it’s inevitable that people will run into technical difficulties. The current solutions of calling customer support and having someone visit you is both time consuming for customers and costly for companies. What if we could provide in-home support some other way?</p>
-											<br>
-											<p>By using augmented reality, we created an app that guides users through a step by step process of how to fix their technical problems. By scanning a QR code, our app will both diagnose and provide technical support. Users can see a virtual version of their hardware and find directions of how to solve the issue at hand.</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Hackathons</li>
-                                                <li><label>Date : </label> September 22, 2019</li>
-                                                <li><label>URL : </label> <a href="https://devpost.com/software/rogers-continuous" target="_blank">Rogers Continuous</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-
-                            <!-- Work Modal 1  -->
-                            <div  tabindex="0" class="modal fade" id="projectModal1">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                            <h4 class="modal-title">Article Overview</h4>
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="assets/img/work/Quantum Computing - From 0 to 1.jpg" alt="work-1">
-                                            <h3>Quantum Computing - From 0 to 1</h3>
-                                            <p>The basics of Quantum Computing and getting you from 0 knowledge to 1… and hopefully not in a superposition! 😜</p>
-                                             <ul class="list-unstyled project-list" >
-                                                <li><label>Category :</label> Quantum Computing</li>
-                                                <li><label>Date : </label> September 16, 2019</li>
-                                                <li><label>URL : </label> <a href="https://medium.com/@ryanlam285/quantum-computing-from-0-to-1-40a6c89281e4" target="_blank">Quantum Computing - From 0 to 1</a></li>
-                                            </ul>
-                                      </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
-                            <!-- End Work Modal  -->
-                            
-
-					   </div>						
-                    </div> <!--/.row-->
-                </div>
-            </div><!--/.container-->
-        </div>
-        <!--====== END PORTFOLIO AREA ======-->
-
-        <!--========CAN INSERT SECTION HERE============-!>  
-         
-        <!--==== CTA AREA =====-->
-        <div id = "newsletter" class="cta-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-						<br>
-						<br>
-                        <p class="wow fadeInLeft" data-wow-delay="0.1s">Want to know what I'm up to?</p>
-                        <h2 class="wow fadeInRight" data-wow-delay="0.3s">Join my monthly newsletter!</h2>
-                        <a href="http://eepurl.com/gR2-iv" target="_blank">Subscribe</a>
-						<br>
-						<br>
-						<br>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--==== END CTA AREA =====-->
-
-         <!--====== CONTACT INFO AREA ======-->
-
-        <div id="contact" class="contact-info-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                      <div class="section-title">
-                       <h2 style="padding-top: 30px">Let's Connect!</h2>
-                          <p>Let's talk business... or about Unicorns! 🦄</p>
-                       </div>
-                    </div>
-                </div> 
-
-				
-				<!--/.row-->
-                
-
-                <div class="row">
-                    <div class="col-md-7">
-                          <div class="contact-form">
-                             <form id="contact-form" method="post" action="contact.php"> 
-
-							
-								 <!-- Start Contact From -->
-								 
-
-                             <div class="messages"></div>
-                                <div class="controls">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <i class="fa fa-user-o"></i>
-                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Name*" required="required" data-error="Name is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <i class="fa fa-envelope-o"></i>
-                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*" required="required" data-error="Valid email is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <i class="fa fa-question-circle-o"></i>
-                                                <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject*" required="required" data-error="Subject is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <i class="fa fa-comment-o"></i>
-                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message*" rows="7" required="required" data-error="Please leave us a message."></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="submit" class="btn btn-effect btn-sent" value="Send message">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form> 
-
-							  
-							  <!-- End Contact From -->
-					
 
                           </div>
-                     </div>
-                    
-                    <div class="col-md-5">
-                        <div class="single-info"> 
-
-							
-							<!-- Single Info -->
-							
-
-                            <div class="info-icon">
-                                <i class="fa fa-linkedin"></i>
-                            </div>
-                            <div class="info-content">
-                                <h5>LinkedIn:</h5>
-                                <a href="https://ca.linkedin.com/in/ryanlam285" target="_blank">Ryan Lam</a>
-                            </div>
                         </div>
-						
-                        <div class="single-info"> 
+                      </div>
 
-							
-							<!-- Single Info -->
-							
-
-                            <div class="info-icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <div class="info-content">
-                                <h5>Email Address:</h5>
-                                <a style="color: black">Available upon request</a>
-                            </div>
-                        </div>
-						
-                        <div class="single-info"> 
-
-							
-							<!-- Single Info -->
-							
-
-                            <div class="info-icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="info-content">
-                                <h5>Phone Number:</h5>
-                                <a style="color: black">Available upon request</a>
-                            </div>
-                        </div>
                     </div>
-                </div> 
-
-		
-		<!--/.row-->
-		
-<!--            </div> -->
-	
-	<!--/.container-->
-	
-<!--        </div>-->
-
-        <!--===== END CONTACT INFO AREA ======-->
-
-		<br>
-					
-        <!--====== FOOTER AREA ======-->
-        <footer class="footer">
-            <div class="container">
-                <div class="row wow zoomIn" data-wow-delay="0s">
-                    <div class="col-md-12 text-center">
-                        <p>&copy;2020 <strong>Ryan Lam</strong>. All Rights Reserved</p>
-                    </div>
+                  </div>
                 </div>
+                <br>
+                <br>
+
+
+
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>What I Do</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="fas fa-school"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Sudent at the University of Waterloo</h4>
+                          <p>Starting Fall 2020, I will be in the Honors Mathematical Physics Co-op program at the University of Waterloo and working towards a Bachelor of Science. I also plan to minor in computer science.</p>
+                        </div>
+                      </div>
+    
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Business Operations &amp; Entrepreneur</h4>
+                          <p>I've founded multiple side-hustles, consulted for various companies, built pitch decks and written business plans. I also co-founded PolyMask, an early-stage venture that aims to provide aerosolization-proof NIV treatment to COVID-19 patients.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class=" col-xs-12 col-sm-6 ">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="fas fa-code"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Programmer</h4>
+                          <p>I'm currently building my web development and data science skills. I can code in HTML5, CSS, Python, C, and have worked with various libraries and APIs. I regularly compete at hackathons and am currently learning JavaScript.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>Quantum Computing Enthusiast</h4>
+                          <p>I've been working with quantum computing for almost a year and have worked with Qiskit and PyQuil. During the summer, I will be attending IQC's QCSYS program and working on a platform to help high school students get into quantum computing.</p>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <br>
+
+                
+				  
+				  
+				  
+				  
+				  
+				  
+		        		<!-- FEATURED -->
+		        		<div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>Featured Work</h2>
+                    </div>
+                  </div>
+                </div>
+				  
+		        		<div id="content" class="page-content site-content single-post" role="main">
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12 ">
+                    <div class="blog-masonry three-columns clearfix">
+						
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Business</a>
+                            </div>
+                            <a href="https://polymask.ca/" target="_blank">
+                              <img src="./img/index-page/polymask.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">In Progress</div>
+                            <a href="https://polymask.ca/" target="_blank">
+                              <h4 class="blog-item-title">PolyMask</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Tech</a>
+                            </div>
+                            <a href="https://devpost.com/software/moivebot" target="_blank">
+                              <img src="./img/index-page/chatbot.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">May 2020</div>
+                            <a href="https://devpost.com/software/moivebot" target="_blank">
+                              <h4 class="blog-item-title">Semantic Similarity Chatbot</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Business</a>
+                            </div>
+                            <a href="./PDFs/TKS x Kidogo.pdf" target="_blank" target="_blank">
+                              <img src="./img/index-page/tks-kidogo.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">March 2020</div>
+                            <a href="./PDFs/TKS x Kidogo.pdf" target="_blank">
+                              <h4 class="blog-item-title">TKS x Kidogo Consulting</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+   
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Articke</a>
+                            </div>
+                            <a href="https://medium.com/@ryanlam285/learning-quantum-computing-in-8-weeks-with-mit-xpro-1199cbaff0bd" target="_blank">
+                              <img src="./img/index-page/mit-xpro.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">March 2020</div>
+                            <a href="https://medium.com/@ryanlam285/learning-quantum-computing-in-8-weeks-with-mit-xpro-1199cbaff0bd" target="_blank">
+                              <h4 class="blog-item-title">Quantum Computing with MIT xPro</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Tech</a>
+                            </div>
+                            <a href="https://devpost.com/software/coefficient" target="_blank">
+                              <img src="./img/index-page/coefficient.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">February 2020</div>
+                            <a href="https://devpost.com/software/coefficient" target="_blank">
+                              <h4 class="blog-item-title">CoEfficient - Hack the Valley 4</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="item">
+                        <div class="blog-card">
+                          <div class="media-block">
+                            <div class="category">
+                              <a href="#">Business</a>
+                            </div>
+                            <a href="./PDFs/TKS x Sidewalk Labs.pdf" target="_blank">
+                              <img src="./img/index-page/tks-sidewalklabs.jpg"/>
+                            </a>
+                          </div>
+                          <div class="post-info">
+                            <div class="post-date">December 2019</div>
+                            <a href="./PDFs/TKS x Sidewalk Labs.pdf" target="_blank">
+                              <h4 class="blog-item-title">TKS x Sidewalk Labs Consulting</h4>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                    <a class="btn btn-primary" href="portfolio.html">View Full Portfolio</a>
+                  </div>
+                </div>
+			        	<br>
+		        		<br>
+		        		<br>
+
+					
+					
+				
+
+              </div>
             </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://ca.linkedin.com/in/ryanlam285" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/ryanlam285" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="https://medium.com/@ryanlam285" target="_blank">Medium</a>
+              </li>
+			        <li>
+                <a href="https://github.com/ryan-lam" target="_blank">GitHub</a>
+		      	  </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>© 2020 All rights reserved. Ryan Lam.</p>
+          </div>
         </footer>
-        <!--====== END FOOTER AREA ======-->
+        
+      </div>
+    </div>
 
-        
-
-
-        <!--== plugins js ==-->
-        <script src="assets/js/plugins.js"></script>
-        
-        <!--== typed js ==-->
-        <script src="assets/js/typed.js"></script>
-        
-        <!--== stellar js ==-->
-        <script src="assets/js/jquery.stellar.min.js"></script>
-        
-        <!--== counterup js ==-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        
-        <!--== waypoints js ==-->
-        <script src="assets/js/jquery.waypoints.min.js"></script>
-        
-         <!--== wow js ==-->
-        <script src="assets/js/wow.min.js"></script>
-        
-         <!--== validator js ==-->
-        <script src="assets/js/validator.min.js"></script>
-        
-         <!--== mixitup js ==-->
-        <script src="assets/js/jquery.mixitup.js"></script>
-        
-         <!--== contact js ==-->
-        <script src="assets/js/contact.js"></script>
-        
-         <!--== main js ==-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
