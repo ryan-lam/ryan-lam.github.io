@@ -1,6 +1,6 @@
 ---
 title: Fast Fourier Transform Image Compressor
-date: 2022-08-13 02:43:21
+date: 2022-08-22 00:00:01
 ---
 
 ## Fast Fourier Transform Image Compressor
