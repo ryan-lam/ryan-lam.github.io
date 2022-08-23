@@ -15,7 +15,7 @@ You can learn more about my work experiences on [LinkedIn](https://www.linkedin.
 *September 2022 -- Present*
 *Waterloo, Ontario* -->
 
-- **Software Test Engineer Intern @ [JamLabs Data Scince](https://www.jamlabs.com/)**
+- **Software Test Engineer Intern @ [JamLabs Data Science](https://www.jamlabs.com/)**
 *January 2022 -- April 2022*
 *Toronto, Ontario*
 
