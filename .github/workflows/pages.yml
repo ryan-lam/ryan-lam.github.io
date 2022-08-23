@@ -6,6 +6,11 @@ on:
       - main  # default branch
 
 # jobs:
+  deploy:
+    type: git
+    repo: https://github.com/<username>/<project>
+    # example, https://github.com/hexojs/hexojs.github.io
+    branch: gh-pages
 #   pages:
 #     runs-on: ubuntu-latest
 #     steps:
@@ -30,9 +35,3 @@ on:
 #         with:
 #           github_token: ${{ secrets.GITHUB_TOKEN }}
 #           publish_dir: ./public
-
-deploy:
-  type: git
-  repo: https://github.com/<username>/<project>
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
