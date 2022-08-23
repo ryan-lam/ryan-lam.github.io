@@ -104,5 +104,5 @@ theme: minima-2.0
 deploy:
   type: git
   repo: https://github.com/ryan-lam/ryan-lam.github.io # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: gh-pages
+  branch: [branch]
   message: [message]
