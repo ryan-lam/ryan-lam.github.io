@@ -34,6 +34,6 @@ Alumni and participation in various organizations
 *June 2020 -- Present*
 *Toronto, Ontario*
 
-<!-- - **Mentor @ [Hack The North 2022](https://hackthenorth.com/)**
+- **Mentor @ [Hack The North 2022](https://hackthenorth.com/)**
 *September 2022* 
-*Waterloo, Ontario* -->
+*Waterloo, Ontario*
