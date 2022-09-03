@@ -28,7 +28,7 @@ You can learn more about my work experiences on [LinkedIn](https://www.linkedin.
 <!--  -->
 
 ## Other
-Alumni and participation in various organizations
+Participation in various organizations
 
 - **Alumni @ [The Knowledge Society (TKS)](https://www.tks.world/)**
 *June 2020 -- Present*
