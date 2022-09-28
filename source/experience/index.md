@@ -11,9 +11,9 @@ You can learn more about my work experiences on [LinkedIn](https://www.linkedin.
 *Toronto, Ontario*
 <!-- *San Francisco, California* -->
 
-<!-- - **Embedded Software Developer @ [Midnight Sun Design Team](https://www.uwmidsun.com/)**
+- **Software Developer @ [Midnight Sun Design Team](https://www.uwmidsun.com/)**
 *September 2022 -- Present*
-*Waterloo, Ontario* -->
+*Waterloo, Ontario*
 
 - **Software Test Engineer Intern @ [JamLabs Data Science](https://www.jamlabs.com/)**
 *January 2022 -- April 2022*
@@ -31,9 +31,5 @@ You can learn more about my work experiences on [LinkedIn](https://www.linkedin.
 Participation in various organizations
 
 - **Alumni @ [The Knowledge Society (TKS)](https://www.tks.world/)**
-*June 2020 -- Present*
-*Toronto, Ontario*
 
 - **Mentor @ [Hack The North 2022](https://hackthenorth.com/)**
-*September 2022* 
-*Waterloo, Ontario*
