@@ -1,5 +1,5 @@
 #title in header
-title: "Ryan Lam"
+title: "😝 Ryan Lam"
 
 #main info
 #owner
@@ -38,8 +38,8 @@ linkedin: https://www.linkedin.com/in/ryanlam285/
 
 # Misc
 nanobar: /js/nanobar.min.js
-switch_light: 👦
-switch_dark: 👦
+# switch_light: 
+# switch_dark: 
 
 # favicon
 favicon: /images/favicon.png
