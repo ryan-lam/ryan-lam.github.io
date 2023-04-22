@@ -11,5 +11,5 @@ This project aims to analyze the brightness of a star named KIC-8462852 in the c
 
 ### Report (analysis) & Code
 
-- [Measuring Significant Increase or Decrease in The Flux of Star KIC 8462852 in The Constellation of Cygnus](./star-flux/Star%20Flux%20of%20KIC%208462852%20report.pdf)
-- [Star Flux of KIC 8462852 Jupyter Notebook](./star-flux/Star%20Flux%20of%20KIC%208462852%20code.pdf)
+- [Measuring Significant Increase or Decrease in The Flux of Star KIC 8462852 in The Constellation of Cygnus (Report)](./star-flux/Star%20Flux%20of%20KIC%208462852%20report.pdf)
+- [Star Flux of KIC 8462852 (Jupyter Notebook)](./star-flux/Star%20Flux%20of%20KIC%208462852%20code.pdf)
