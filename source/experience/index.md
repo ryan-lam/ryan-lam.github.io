@@ -5,8 +5,6 @@ date: 2022-08-22 00:00:01
 
 ## Experience
 
-You can learn more about my work experiences on [LinkedIn](https://www.linkedin.com/in/ryanlam285/) as well as on my [Resume](/resume.pdf).
-
 - **Strategy Lead @ [Midnight Sun Solar Car Design Team](https://www.uwmidsun.com/)**
   _September 2022 -- Present_
   _Waterloo, Ontario_
@@ -32,8 +30,6 @@ You can learn more about my work experiences on [LinkedIn](https://www.linkedin.
 <!--  -->
 
 ## Other
-
-Participation in various organizations
 
 - **Alumni @ [The Knowledge Society (TKS)](https://www.tks.world/)**
 
