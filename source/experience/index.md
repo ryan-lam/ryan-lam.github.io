@@ -5,6 +5,14 @@ date: 2022-08-22 00:00:01
 
 ## Experience
 
+- **Software Engineer Intern @ [Questrade](https://www.questrade.com/)**
+  _September 2023 -- Present_
+  _Toronto, Ontario_
+
+- **Research Assistant @ [York University, Planetary Volatiles Lab](https://www.yorku.ca/jmoores/)**
+  _August 2023 -- Present_
+  _Toronto, Ontario_
+
 - **Strategy Lead @ [Midnight Sun Solar Car Design Team](https://www.uwmidsun.com/)**
   _September 2022 -- Present_
   _Waterloo, Ontario_
