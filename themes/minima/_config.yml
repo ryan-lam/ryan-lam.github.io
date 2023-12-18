@@ -1,10 +1,10 @@
 #title in header
-title: "😝 Ryan Lam"
+title: "🐳 Ryan Lam"
 
 #main info
 #owner
 index_title: "Hi There!"
-# email: 
+# email:
 info: ""
 #description
 desc: ""
@@ -13,7 +13,7 @@ desc: ""
 menu:
   # Home: /
   Experience: /experience
-  Projects: /projects
+  Links: /links
 
 #index/main page max show posts (in number)
 max_post: 4
@@ -33,22 +33,22 @@ footer: true
 # placelink:
 github: https://github.com/ryan-lam
 linkedin: https://www.linkedin.com/in/ryanlam285/
-# twitter: 
+# twitter:
 # instagram:
 
 # Misc
 nanobar: /js/nanobar.min.js
-# switch_light: 
-# switch_dark: 
+# switch_light:
+# switch_dark:
 
 # favicon
 favicon: /images/favicon.png
 # # thumbnail
-# thumbnail: 
+# thumbnail:
 
 article:
   thumbnail: true
 
 # DISQUS comments (sign up to Disqus to get disqus_shortname)
 disqus_enabled: false
-disqus_shortname: 
+disqus_shortname:
