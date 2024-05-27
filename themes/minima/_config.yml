@@ -13,7 +13,7 @@ desc: ""
 menu:
   # Home: /
   Experience: /experience
-  Links: /links
+  # Links: /links
 
 #index/main page max show posts (in number)
 max_post: 4
