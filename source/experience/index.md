@@ -5,9 +5,17 @@ date: 2022-08-22 00:00:01
 
 ## Experience
 
+- **Quantitative Research Assistant @ [University of Waterloo, GENESIS Lab](https://uwaterloo.ca/news/media/waterloo-receives-1-million-usd-pledge-interop-labs)**
+  September 2025 -- Present
+  Waterloo, Ontario
+
 - **Research Assistant @ [New York University, Pelli Lab](http://denispelli.com/welcome.html)**
   June 2024 -- Present
   New York, New York
+
+- **Machine Learning Engineer Intern @ [Amazon](http://amazon.com)**
+  May 2025 -- August 2025
+  Vancouver, British Columbia
 
 - **Software Engineer Intern @ [Millennium](https://www.mlp.com/)**
   June 2024 -- August 2024
